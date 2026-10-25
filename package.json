@@ -1,0 +1,13 @@
+{
+  "name": "hcm-lite",
+  "version": "1.0.0",
+  "description": "HCM Lite - Intelligent Human Capital Management System",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "backend": "python run.py",
+    "test:backend": "pytest tests/ -v"
+  }
+}
